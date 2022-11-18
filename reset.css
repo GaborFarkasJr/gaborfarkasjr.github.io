@@ -1,0 +1,10 @@
+﻿html, body, span, p, h1, h2, h3, h4, h5, h6, header, div, figure, figcaption, section, nav, hgroup, footer, ul, ol, li, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-size: 100%;
+    vertical-align: baseline;
+    list-style: none;
+    
+}

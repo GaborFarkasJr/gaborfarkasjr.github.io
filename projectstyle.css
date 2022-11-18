@@ -1,0 +1,466 @@
+@import url(reset.css);
+
+/* *, section, li, p {
+    border: black solid 0.1em;
+} */
+
+/* Align and spacing */
+
+footer section{
+    margin: auto;
+    max-width: 85em;
+}
+
+footer {
+    padding-bottom: 10em;
+    padding-top: 1em;
+}
+p#copy {
+    
+    margin: auto;
+    max-width: 85em;
+}
+#portfolio {
+    border-radius: 0.3em;
+}
+#portfolio h2 {
+    text-align: center;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0.5em;
+}
+
+header {
+    padding: 1em;
+}
+
+section, div, aside {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    max-width: 85em;
+    margin-bottom: 20em;
+}
+hr {
+    border: none;
+    height: 0.5em;
+    margin-bottom: 0;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+hr+h1, hr+h2, hr+h3 {
+    width: fit-content;
+    padding: 0.2em;
+    margin-top: -0.1em;
+}
+hr+h2 {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+hr+h3 {
+    margin-left: 0.625em;
+    margin-right: 0.625em;
+}
+hr+h1+p {
+    margin-top: 7em;
+}
+hr+h2+p {
+    margin-top: 5em;
+}
+hr+h3+p {
+    margin-top: 4em;
+}
+
+/* Blog page stuff */
+
+#blogpage h1 {
+    text-align: center;
+}
+.uploaddate {
+    position: absolute;
+    right: 1em;
+    bottom: -3em;
+}
+#blogpage ul {
+    max-height: 20em;
+}
+#blogpage .rightcol p {
+    text-align: center;
+}
+
+/* Image overlay */
+figure {
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    bottom: 0.15em;
+    padding: 1em 0 1em 0;
+    text-align: center;
+    width: inherit;
+
+}
+
+/* 2-column layout */
+
+.leftcol, .rightcol {
+    margin-bottom: 10em;
+}
+.leftcol {
+    width: 65%;
+    border-top-left-radius: 0.3em;
+    border-bottom-left-radius: 0.3em;
+}
+.rightcol {
+    width: 35%;
+    border-top-right-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+}
+.spacer {
+    display: flex;
+    margin: 1em auto 5em auto;
+    max-width: 85em;
+}
+
+/* Scroll stuff */
+.themedscroll::-webkit-scrollbar {
+    width: 0.1em;
+}
+.allowscroll {
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+/* Form Design and Align stuff */
+.formcontainer {
+    border-radius: 0.3em;
+    max-width: 25em;
+    margin: 10em auto 10em auto;
+    border: none;
+    padding-top: 0em;
+    padding-bottom: 2em;
+}
+.form {
+    text-align: center;
+}
+#addpost.formcontainer {
+    max-width: 50em;
+    height: 30em;
+}
+#blogpage button {
+    width: 8em;
+}
+.form button {
+    font-size: 1.5em;
+    padding: 0.5em;
+    margin-top: 1em;
+    border-radius: 0.3em;
+    width: 5em;
+}
+.form input {
+    padding: 0.75em 2em 0.75em 0.2em;
+}
+.form input, .form textarea {
+    margin: auto;
+    margin-bottom: 0.5em;
+    border-radius: 0.3em;
+}
+#addpost .form input, #addpost .form textarea {
+    max-width: 50em;
+}
+.form textarea {
+    padding: 0.5em 2em 0.5em 0.2em;
+    resize: none;
+}
+.form p, .form legend {
+    margin-left: 0;
+}
+.form legend {
+    position: relative;
+    text-align: center;
+    padding-left: 0;
+    font-size: 3em;
+}
+.form fieldset {
+    border: none;
+    margin-top: 1em;
+}
+
+/* Bar navigation */
+
+#barnav {
+    padding-bottom: 3em;
+}
+
+#barnav ul {
+    text-align: center;
+    margin-bottom: -4em;
+    
+}
+#barnav li {
+    display: inline;
+    padding-right: 3em;
+    padding-left: 3em;
+}
+a#login {
+    position: absolute;
+    right: 2em;
+    top: 1.5em;
+}
+nav#barnav {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+#barnav span:first-of-type {
+    font-size: 2em;
+    float: left;
+}
+/* Introduction section */
+
+#intro div {
+    margin: auto;
+    max-width: 85em;
+    padding: 8em 0 11em 0;
+}
+#intro {
+    width: auto;
+    margin: auto;
+    padding-bottom: 20em;
+    margin-bottom: 5em;
+}
+
+#intro img {
+    margin: -3em 1em 0.5em 12em;
+    float: left;
+    clear: both;
+}
+
+#intro img {
+    border-radius: 0.5em;
+}
+
+/* Text stuff and styles*/
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.6em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-left: 0.5em;
+    margin-bottom: 1em;
+}
+p, ul, dl {
+    margin-left: 0.8em;
+    margin-top: 0.5em;
+}
+p {
+    margin-right: 1em;
+}
+
+
+a {
+    text-decoration: none;
+}
+ul {
+    padding-left: 2.5em;
+}
+dt {
+    font-weight: bolder;
+}
+
+/* List styles */
+
+ul li {
+    list-style-type: disc;
+}
+ul.liststyle-arrow li {
+    list-style-type: "\261E";
+    line-height: 1em;
+    margin: 0 0.5em 0.5em 0; 
+    padding: 0 0 0.5em 0.5em;
+    border-radius: 0.5em;
+}
+ul.liststyle-arrow li::marker {
+    font-size: 3em;
+    content: icon;
+}
+
+
+ul.liststyle-card li{
+    list-style: none;
+    border-radius: 0.8em;
+    padding-top: 0.5em;
+    margin-bottom: 3em;
+    position: relative;
+}
+ul.liststyle-card {
+    padding-left: 0;
+    margin-left: 0;
+}
+ul.liststyle-card img {
+    width: 25em;
+    height: 25em;
+}
+ul.liststyle-card figure {
+    width: 25em;
+    margin: 0 1em 0.5em 1em;
+}
+
+#portfolio ul.liststyle-card li {
+    height: 25.5em;
+}
+
+
+ul.alternating li:nth-child(odd) figure {
+    float: left;
+}
+ul.alternating li:nth-child(odd) :is(h1, h2, h3) {
+    float: right;
+}
+ul.alternating li:nth-child(even) figure {
+    float: right;
+}
+ul.alternating li:nth-child(even) :is(h1, h2, h3) {
+    float: left;
+}
+
+
+
+
+/* Colours and stuff */
+body {
+    background-color: #FFFFFF;
+}
+header, footer {
+    background-color: #0F1A20;
+    color: #FFFFFF;
+}
+footer section {
+    background-color: transparent;
+}
+footer a, header a {
+    color: #FFFFFF;
+}
+hr {
+    background-color: #0F1A20;
+}
+/* 2-column layour colours */
+
+.leftcol, .rightcol {
+    background-color: #FFFFFF;
+    border-top: 2em solid #0052CE;
+    border-bottom: 2em solid #0052CE;
+
+}
+.leftcol {
+    border-left: 0.3em solid #0052CE;
+}
+.rightcol {
+    border-right: 0.3em solid #0052CE;
+}
+.rightcol section, .leftcol section {
+    background-color: transparent;
+}
+
+/* Section Colours */
+
+#intro {
+    /* background-image: linear-gradient(#0052CE, #FFFFFF); */
+    color: #FFFFFF;
+}
+#intro section {
+    background-color: transparent;
+}
+#portfolio {
+    background-color: #FFFFFF;
+    border-top: 2em solid #0052CE;
+    border-bottom: 2em solid #0052CE;
+    border-right: 0.3em solid #0052CE;
+    border-left: 0.3em solid #0052CE;
+}
+hr+h1, hr+h2, hr+h3 {
+    background-color: #0F1A20;
+    color: white;
+}
+.overlay {
+    background-color: #00000080;
+    color: #FFFFFF;
+}
+
+/* Arrow list */
+ul.liststyle-arrow li {
+    background-color: #0052CE;
+    color: #FFFFFF;
+}
+ul.liststyle-arrow li::marker {
+    color: #000000;
+}
+/* Card list */
+/* ul.liststyle-card li {
+    background-color: #6e9075A0;
+    border-top: 2em solid #6e9075;
+    border-bottom: 2em solid #6e9075;
+} */
+
+/* Colours for forms */
+
+.gradientbg {
+    background-image: linear-gradient(#0052CE, #FFFFFF);
+}
+.formcontainer {
+    background-color: #FFFFFF;
+    border-top: 2em solid #0052CE;
+    border-bottom: 2em solid #0052CE;
+    border-right: 0.3em solid #0052CE;
+    border-left: 0.3em solid #0052CE;
+}
+figcaption h1{
+    background-color: #0052CE;
+    color: #FFFFFF;
+}
+.form button {
+    background-color: #0F1A20;
+    color: #FFFFFF;
+    border: none;
+}
+.form input, .form textarea  {
+    border: 0.2em solid #0F1A20;
+}
+.form button:hover {
+    background-color: #262e33;
+    
+}
+.form button:active {
+    background-color: #0a1114;
+}
+.form legend {
+    background-color: transparent;
+    
+}
+
+/* Scrollbar stuff */
+
+.themedscroll::-webkit-scrollbar {
+    background-color: #FFFFFF;
+    
+}
+.themedscroll::-webkit-scrollbar-track {
+    background-color: #e7e7e7;
+}
+.themedscroll::-webkit-scrollbar-thumb {
+    background-color: #0F1A20;
+}
